@@ -1,5 +1,7 @@
+<h1 align="center">👋 Hi, I'm Harshvardhan Sekar</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&random=false&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Harshvardhan+Sekar;Credit+Risk+Analyst+%7C+ML+Engineer;%2418B%2B+Portfolio+Experience+at+HSBC;UIUC+MS+Data+Science+%7C+3.94+GPA" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&random=false&width=700&lines=%2418B%2B+Portfolio+Experience+at+HSBC;Credit+Risk+Analyst+%7C+Data+Scientist;UIUC+MS+Data+Science+%7C+3.94+GPA;Vision-Language+Models+%7C+RAG+Pipelines;CECL%2FIFRS-9+%7C+Loss+Forecasting" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -41,7 +43,7 @@ from building CECL/IFRS-9 compliant ECL frameworks to fine-tuning vision-languag
 <h2 align="center">💼 Professional Experience</h2>
 
 <h3 align="center">🏦 HSBC — Decision Science Analyst</h3>
-<p align="center"><em>Bangalore, India | Aug 2022 – Jun 2024</em></p>
+<p align="center"><em>Bangalore, India | Aug 2022 – May 2024</em></p>
 
 <table align="center">
   <tr>
@@ -66,8 +68,8 @@ from building CECL/IFRS-9 compliant ECL frameworks to fine-tuning vision-languag
 
 <p align="center"><strong>Key Achievements:</strong></p>
 <p align="center">
-🏆 Developed <strong>probability-weighted ECL scenarios</strong> (80% Central, 10% Upside, 10% Downside)<br/>
-📊 Built <strong>Excel-to-PowerPoint VBA automation</strong> for Credit Review Forum presentations<br/>
+🏆 Developed <strong>probability-weighted ECL scenarios</strong> (Baseline, Upside, Downside-1, Downside-2)<br/>
+📊 Streamlined SAS scripts via macros, achieving <strong>30% productivity gain</strong> in mortgage reporting<br/>
 🔬 Applied <strong>CECL (ASC 326)</strong> and <strong>IFRS-9</strong> frameworks across portfolio segments
 </p>
 
@@ -99,16 +101,58 @@ from building CECL/IFRS-9 compliant ECL frameworks to fine-tuning vision-languag
 
 <h2 align="center">🔬 Featured Projects</h2>
 
+<h3 align="center">🎨 Multimodal COMICS Cloze using Vision-Language Models</h3>
+<p align="center"><em>Fine-tuning LLaVA for Comic Panel Prediction</em></p>
+
+<p align="center">
+  <a href="https://github.com/harshvardhan-sekar/comics-cloze"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+</p>
+
+<p align="center">
+Fine-tuned <strong>LLaVA-OneVision-7B</strong> with LoRA on <strong>249K sequences</strong><br/>
+for comic panel prediction on NCSA Delta H200 GPUs.
+</p>
+
+<table align="center">
+  <tr>
+    <th>Metric</th>
+    <th>Zero-Shot</th>
+    <th>Fine-Tuned</th>
+    <th>Improvement</th>
+  </tr>
+  <tr>
+    <td><strong>ROUGE-1</strong></td>
+    <td>0.349</td>
+    <td><strong>0.439</strong></td>
+    <td>+33%</td>
+  </tr>
+  <tr>
+    <td><strong>ROUGE-2</strong></td>
+    <td>0.071</td>
+    <td><strong>0.133</strong></td>
+    <td>+112%</td>
+  </tr>
+  <tr>
+    <td><strong>BERTScore</strong></td>
+    <td>0.854</td>
+    <td><strong>0.878</strong></td>
+    <td>+2.8%</td>
+  </tr>
+</table>
+
+<p align="center">
+🔑 <strong>Key Innovation:</strong> Scaled ground-truth generation via <strong>Vertex AI Gemini Batch API</strong> (249K samples, ~$25);<br/>
+integrated <strong>Stable Diffusion</strong> for end-to-end panel image synthesis.
+</p>
+
+---
+
 <h3 align="center">🏥 Medical Question-Answering RAG Pipeline</h3>
 <p align="center"><em>Retrieval-Augmented Generation for Clinical NLP</em></p>
 
 <p align="center">
-  <a href="https://github.com/harshvardhan-sekar/medical-qa-rag"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-</p>
-
-<p align="center">
-Built a production-grade RAG system on NIH's <strong>MedQuAD dataset (16,407 QA pairs)</strong><br/>
-with a groundbreaking discovery in retrieval strategy.
+Built a production-grade RAG system on NIH's <strong>MedQuAD dataset (16K QA pairs)</strong><br/>
+using hybrid retrieval (BM25 + SBERT) with fine-tuned BioBART/SciFive generators.
 </p>
 
 <table align="center">
@@ -131,82 +175,18 @@ with a groundbreaking discovery in retrieval strategy.
 </table>
 
 <p align="center">
-🔑 <strong>Key Innovation:</strong> Discovered <strong>Question-to-Question retrieval outperforms Q-to-Answer</strong><br/>
-— a 151.7% improvement that challenges conventional RAG design.
-</p>
-
-<p align="center">
-<code>BioBART</code> <code>SciFive</code> <code>Sentence-BERT</code> <code>BM25</code> <code>RRF Fusion</code> <code>PSC Bridges-2 GPUs</code>
+🔑 <strong>Key Innovation:</strong> Discovered <strong>Q-to-Q retrieval outperforms Q-to-A</strong>;<br/>
+implemented CUI-based splitting across 5,125 diseases to prevent data leakage.
 </p>
 
 ---
 
-<h3 align="center">🎨 Beyond the Frame: Multimodal COMICS Cloze</h3>
-<p align="center"><em>Vision-Language Models for Comic Panel Prediction</em></p>
-
-<p align="center">
-  <a href="https://github.com/harshvardhan-sekar/comics-cloze"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-</p>
-
-<p align="center">
-Fine-tuned <strong>LLaVA-OneVision-7B</strong> on the <strong>COMICS dataset (1.2M panels)</strong><br/>
-to predict missing panel descriptions from narrative context.
-</p>
-
-<table align="center">
-  <tr>
-    <th>Metric</th>
-    <th>Zero-Shot</th>
-    <th>Fine-Tuned</th>
-    <th>Improvement</th>
-  </tr>
-  <tr>
-    <td><strong>ROUGE-1</strong></td>
-    <td>0.349</td>
-    <td><strong>0.439</strong></td>
-    <td>+25.9%</td>
-  </tr>
-  <tr>
-    <td><strong>ROUGE-2</strong></td>
-    <td>0.071</td>
-    <td><strong>0.133</strong></td>
-    <td>+87.4%</td>
-  </tr>
-  <tr>
-    <td><strong>ROUGE-L</strong></td>
-    <td>0.179</td>
-    <td><strong>0.232</strong></td>
-    <td>+30.1%</td>
-  </tr>
-  <tr>
-    <td><strong>BERTScore</strong></td>
-    <td>0.854</td>
-    <td><strong>0.878</strong></td>
-    <td>+2.8%</td>
-  </tr>
-</table>
-
-<p align="center">
-🔑 <strong>Key Innovation:</strong> Integrated <strong>Stable Diffusion</strong> for generating panel images<br/>
-from predicted descriptions, evaluated via CLIPScore.
-</p>
-
-<p align="center">
-<code>LLaVA-OneVision-7B</code> <code>LoRA Fine-tuning</code> <code>Stable Diffusion</code> <code>Vertex AI Gemini</code> <code>NCSA Delta H200</code>
-</p>
-
----
-
-<h3 align="center">📈 LendingClub Credit Risk Portfolio Analysis</h3>
+<h3 align="center">📈 Credit Risk Loan Portfolio Analysis (IFRS-9)</h3>
 <p align="center"><em>CECL-Compliant ECL Framework</em></p>
 
 <p align="center">
-  <a href="https://github.com/harshvardhan-sekar/lending-club-credit-risk"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-</p>
-
-<p align="center">
-End-to-end credit risk analytics on a <strong>$195M LendingClub portfolio</strong><br/>
-with PD, LGD, and EAD models.
+Designed IFRS-9 compliant credit risk pipeline for <strong>$195M LendingClub portfolio</strong><br/>
+with PD, LGD, and EAD models; reduced aggregate ECL prediction error to <strong>24.3%</strong>.
 </p>
 
 <table align="center">
@@ -222,26 +202,16 @@ with PD, LGD, and EAD models.
     <td><strong>LGD MAE</strong></td>
     <td>0.064%</td>
   </tr>
-  <tr>
-    <td><strong>ECL Error</strong></td>
-    <td>24.3%</td>
-  </tr>
 </table>
 
 <p align="center">
-📊 <strong>PD Model:</strong> XGBoost with WoE transformation<br/>
-💰 <strong>LGD Model:</strong> Two-stage beta regression on recovery rates<br/>
-📈 <strong>EAD Model:</strong> Credit Conversion Factor (CCF) regression<br/>
-📉 <strong>Scenario Weighting:</strong> CECL-compliant probability-weighted ECL
-</p>
-
-<p align="center">
-<code>XGBoost</code> <code>SHAP</code> <code>Lifelines</code> <code>Tableau</code> <code>scikit-learn</code>
+Built with Random Forest regressors across 30K loans;<br/>
+visualized risk-reporting insights in <strong>Tableau dashboards</strong>.
 </p>
 
 ---
 
-<h3 align="center">🎬 Red Carpet Analytics: Oscar Prediction</h3>
+<h3 align="center">🎬 Oscar Award Prediction using Machine Learning</h3>
 <p align="center"><em>Entertainment Analytics with XGBoost</em></p>
 
 <p align="center">
@@ -250,35 +220,24 @@ with PD, LGD, and EAD models.
 </p>
 
 <p align="center">
-ML classifier predicting Oscar wins across <strong>1,270 nominations (1928-2024)</strong>.
+Built XGBoost classifier to predict Oscar wins on <strong>1,270 nominations (1928-2024)</strong><br/>
+using cast, crew, ratings, and streaming features.
 </p>
 
 <table align="center">
   <tr>
     <th>Metric</th>
-    <th>Random Forest</th>
-    <th>XGBoost</th>
-  </tr>
-  <tr>
-    <td><strong>Recall (Winners)</strong></td>
-    <td>21%</td>
-    <td><strong>80%</strong> (+280%)</td>
+    <th>Achievement</th>
   </tr>
   <tr>
     <td><strong>Accuracy</strong></td>
-    <td>79%</td>
     <td>~80%</td>
   </tr>
+  <tr>
+    <td><strong>Improvement</strong></td>
+    <td>75% via feature engineering</td>
+  </tr>
 </table>
-
-<p align="center">
-🔑 <strong>Key Insight:</strong> Threshold tuning (0.4) + class balancing achieved <strong>80% recall</strong><br/>
-— catching 4 out of 5 actual winners.
-</p>
-
-<p align="center">
-<code>XGBoost</code> <code>Random Forest</code> <code>Tableau</code> <code>Power BI</code>
-</p>
 
 ---
 
@@ -286,87 +245,75 @@ ML classifier predicting Oscar wins across <strong>1,270 nominations (1928-2024)
 <p align="center"><em>Medical Imaging with Transfer Learning</em></p>
 
 <p align="center">
-Built CNN classifier on <strong>5,400+ chest X-rays</strong> for pneumonia/COVID-19 detection.
-</p>
-
-<table align="center">
-  <tr>
-    <th>Approach</th>
-    <th>Accuracy</th>
-  </tr>
-  <tr>
-    <td>Baseline CNN</td>
-    <td>70%</td>
-  </tr>
-  <tr>
-    <td><strong>Transfer Learning</strong></td>
-    <td><strong>88%+</strong></td>
-  </tr>
-</table>
-
-<p align="center">
-<code>VGG16</code> <code>DenseNet-201</code> <code>EfficientNet-B0</code>
+Built CNN classifier on <strong>5,400+ chest X-rays</strong> for pneumonia/COVID-19 detection;<br/>
+improved accuracy from 70% to <strong>88%+</strong> using transfer learning (VGG16, DenseNet, EfficientNet).
 </p>
 
 ---
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
-<h4 align="center">Languages & Frameworks</h4>
+<h4 align="center">Programming Languages</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/SAS-0066B3?style=for-the-badge&logo=sas&logoColor=white" alt="SAS"/>
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="PySpark"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
 </p>
 
-<h4 align="center">Machine Learning & AI</h4>
+<h4 align="center">Libraries & Frameworks</h4>
 <p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge" alt="Hugging Face"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
   <img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge" alt="XGBoost"/>
+  <img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge" alt="HuggingFace"/>
 </p>
 
-<h4 align="center">NLP & Vision</h4>
+<h4 align="center">Cloud & Data Platforms</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/LLaVA-FF6B6B?style=for-the-badge" alt="LLaVA"/>
-  <img src="https://img.shields.io/badge/BioBART-4ECDC4?style=for-the-badge" alt="BioBART"/>
-  <img src="https://img.shields.io/badge/Stable_Diffusion-B762C1?style=for-the-badge" alt="Stable Diffusion"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain"/>
-</p>
-
-<h4 align="center">Cloud & HPC</h4>
-<p align="center">
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/NCSA_Delta-13294B?style=for-the-badge" alt="NCSA Delta"/>
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/>
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/>
+</p>
+
+<h4 align="center">HPC Resources</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/NCSA_Delta_(H200)-13294B?style=for-the-badge" alt="NCSA Delta"/>
   <img src="https://img.shields.io/badge/PSC_Bridges--2-003594?style=for-the-badge" alt="PSC Bridges"/>
 </p>
 
-<h4 align="center">Data & BI</h4>
+<h4 align="center">Databases & BI</h4>
 <p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau"/>
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/QlikSense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="QlikSense"/>
+  <img src="https://img.shields.io/badge/Excel_(VBA)-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel VBA"/>
 </p>
 
----
-
-<h2 align="center">📊 GitHub Stats</h2>
-
+<h4 align="center">ML/AI Techniques</h4>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harshvardhan-sekar&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img src="https://img.shields.io/badge/Logistic_Regression-4B0082?style=for-the-badge" alt="Logistic Regression"/>
+  <img src="https://img.shields.io/badge/Random_Forest-228B22?style=for-the-badge" alt="Random Forest"/>
+  <img src="https://img.shields.io/badge/CNN-FF6F61?style=for-the-badge" alt="CNN"/>
+  <img src="https://img.shields.io/badge/RNN-9B59B6?style=for-the-badge" alt="RNN"/>
+  <img src="https://img.shields.io/badge/BERT-1DA1F2?style=for-the-badge" alt="BERT"/>
+  <img src="https://img.shields.io/badge/RAG_Pipelines-00CED1?style=for-the-badge" alt="RAG"/>
 </p>
 
+<h4 align="center">Risk Frameworks</h4>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshvardhan-sekar&layout=compact&langs_count=8&theme=tokyonight" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=harshvardhan-sekar&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://img.shields.io/badge/CECL-8B0000?style=for-the-badge" alt="CECL"/>
+  <img src="https://img.shields.io/badge/IFRS--9-8B4513?style=for-the-badge" alt="IFRS-9"/>
+  <img src="https://img.shields.io/badge/PD%2FLGD%2FEAD-2F4F4F?style=for-the-badge" alt="PD/LGD/EAD"/>
+  <img src="https://img.shields.io/badge/Model_Validation-556B2F?style=for-the-badge" alt="Model Validation"/>
 </p>
 
 ---
@@ -377,22 +324,18 @@ Built CNN classifier on <strong>5,400+ chest X-rays</strong> for pneumonia/COVID
   <tr>
     <th>💼 Industry</th>
     <th>🎓 Academic</th>
-    <th>🔬 Research</th>
   </tr>
   <tr>
     <td align="center"><strong>$18B+</strong><br/>Portfolio Management</td>
     <td align="center"><strong>3.94</strong><br/>GPA at UIUC</td>
-    <td align="center"><strong>102%</strong><br/>RAG Improvement</td>
   </tr>
   <tr>
     <td align="center"><strong>2 Years</strong><br/>HSBC Credit Risk</td>
     <td align="center"><strong>Stanford/DeepLearning.AI</strong><br/>Certifications</td>
-    <td align="center"><strong>111.7%</strong><br/>ROUGE-2 Gain</td>
   </tr>
   <tr>
     <td align="center"><strong>CECL/IFRS-9</strong><br/>Compliance</td>
-    <td align="center"><strong>7+</strong><br/>End-to-End Projects</td>
-    <td align="center"><strong>Q→Q</strong><br/>Retrieval Discovery</td>
+    <td align="center"><strong>5+</strong><br/>End-to-End Projects</td>
   </tr>
 </table>
 
