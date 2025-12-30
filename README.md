@@ -255,65 +255,65 @@ improved accuracy from 70% to <strong>88%+</strong> using transfer learning (VGG
 
 <h4 align="center">Programming Languages</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/SAS-0066B3?style=for-the-badge&logo=sas&logoColor=white" alt="SAS"/>
-  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="PySpark"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <a href="https://docs.python.org/3/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+  <a href="https://learn.microsoft.com/en-us/sql/sql-server/"><img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL"/></a>
+  <a href="https://documentation.sas.com/"><img src="https://img.shields.io/badge/SAS-0066B3?style=for-the-badge&logo=sas&logoColor=white" alt="SAS"/></a>
+  <a href="https://spark.apache.org/docs/latest/api/python/"><img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="PySpark"/></a>
+  <a href="https://cplusplus.com/doc/"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/></a>
 </p>
 
 <h4 align="center">Libraries & Frameworks</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge" alt="XGBoost"/>
-  <img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge" alt="HuggingFace"/>
+  <a href="https://pandas.pydata.org/docs/"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/></a>
+  <a href="https://numpy.org/doc/"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/></a>
+  <a href="https://scikit-learn.org/stable/documentation.html"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/></a>
+  <a href="https://pytorch.org/docs/stable/index.html"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/></a>
+  <a href="https://www.tensorflow.org/api_docs"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/></a>
+  <a href="https://xgboost.readthedocs.io/"><img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge" alt="XGBoost"/></a>
+  <a href="https://huggingface.co/docs"><img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge" alt="HuggingFace"/></a>
 </p>
 
 <h4 align="center">Cloud & Data Platforms</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/>
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/>
+  <a href="https://docs.aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/></a>
+  <a href="https://cloud.google.com/docs"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/></a>
+  <a href="https://learn.microsoft.com/en-us/azure/"><img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/></a>
+  <a href="https://docs.snowflake.com/"><img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/></a>
+  <a href="https://docs.databricks.com/"><img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/></a>
 </p>
 
 <h4 align="center">HPC Resources</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/NCSA_Delta_(H200)-13294B?style=for-the-badge" alt="NCSA Delta"/>
-  <img src="https://img.shields.io/badge/PSC_Bridges--2-003594?style=for-the-badge" alt="PSC Bridges"/>
+  <a href="https://docs.ncsa.illinois.edu/systems/delta/"><img src="https://img.shields.io/badge/NCSA_Delta_(H200)-13294B?style=for-the-badge" alt="NCSA Delta"/></a>
+  <a href="https://www.psc.edu/resources/bridges-2/"><img src="https://img.shields.io/badge/PSC_Bridges--2-003594?style=for-the-badge" alt="PSC Bridges"/></a>
 </p>
 
 <h4 align="center">Databases & BI</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/QlikSense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="QlikSense"/>
-  <img src="https://img.shields.io/badge/Excel_(VBA)-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel VBA"/>
+  <a href="https://www.postgresql.org/docs/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/></a>
+  <a href="https://dev.mysql.com/doc/"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></a>
+  <a href="https://help.tableau.com/"><img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau"/></a>
+  <a href="https://learn.microsoft.com/en-us/power-bi/"><img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/></a>
+  <a href="https://help.qlik.com/en-US/sense/"><img src="https://img.shields.io/badge/QlikSense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="QlikSense"/></a>
+  <a href="https://learn.microsoft.com/en-us/office/vba/api/overview/excel"><img src="https://img.shields.io/badge/Excel_(VBA)-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel VBA"/></a>
 </p>
 
 <h4 align="center">ML/AI Techniques</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/Logistic_Regression-4B0082?style=for-the-badge" alt="Logistic Regression"/>
-  <img src="https://img.shields.io/badge/Random_Forest-228B22?style=for-the-badge" alt="Random Forest"/>
-  <img src="https://img.shields.io/badge/CNN-FF6F61?style=for-the-badge" alt="CNN"/>
-  <img src="https://img.shields.io/badge/RNN-9B59B6?style=for-the-badge" alt="RNN"/>
-  <img src="https://img.shields.io/badge/BERT-1DA1F2?style=for-the-badge" alt="BERT"/>
-  <img src="https://img.shields.io/badge/RAG_Pipelines-00CED1?style=for-the-badge" alt="RAG"/>
+  <a href="https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"><img src="https://img.shields.io/badge/Logistic_Regression-4B0082?style=for-the-badge" alt="Logistic Regression"/></a>
+  <a href="https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees"><img src="https://img.shields.io/badge/Random_Forest-228B22?style=for-the-badge" alt="Random Forest"/></a>
+  <a href="https://pytorch.org/docs/stable/nn.html#convolution-layers"><img src="https://img.shields.io/badge/CNN-FF6F61?style=for-the-badge" alt="CNN"/></a>
+  <a href="https://pytorch.org/docs/stable/nn.html#recurrent-layers"><img src="https://img.shields.io/badge/RNN-9B59B6?style=for-the-badge" alt="RNN"/></a>
+  <a href="https://huggingface.co/docs/transformers/model_doc/bert"><img src="https://img.shields.io/badge/BERT-1DA1F2?style=for-the-badge" alt="BERT"/></a>
+  <a href="https://python.langchain.com/docs/tutorials/rag/"><img src="https://img.shields.io/badge/RAG_Pipelines-00CED1?style=for-the-badge" alt="RAG"/></a>
 </p>
 
 <h4 align="center">Risk Frameworks</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/CECL-8B0000?style=for-the-badge" alt="CECL"/>
-  <img src="https://img.shields.io/badge/IFRS--9-8B4513?style=for-the-badge" alt="IFRS-9"/>
-  <img src="https://img.shields.io/badge/PD%2FLGD%2FEAD-2F4F4F?style=for-the-badge" alt="PD/LGD/EAD"/>
-  <img src="https://img.shields.io/badge/Model_Validation-556B2F?style=for-the-badge" alt="Model Validation"/>
+  <a href="https://www.fasb.org/Page/PageContent?pageId=/standards/accounting-standards-codification.html"><img src="https://img.shields.io/badge/CECL-8B0000?style=for-the-badge" alt="CECL"/></a>
+  <a href="https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/"><img src="https://img.shields.io/badge/IFRS--9-8B4513?style=for-the-badge" alt="IFRS-9"/></a>
+  <a href="https://www.bis.org/bcbs/irbriskweight.htm"><img src="https://img.shields.io/badge/PD%2FLGD%2FEAD-2F4F4F?style=for-the-badge" alt="PD/LGD/EAD"/></a>
+  <a href="https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html"><img src="https://img.shields.io/badge/Model_Validation-556B2F?style=for-the-badge" alt="Model Validation"/></a>
 </p>
 
 ---
