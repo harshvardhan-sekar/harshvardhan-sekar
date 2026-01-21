@@ -105,7 +105,7 @@ from building CECL/IFRS-9 compliant ECL frameworks to fine-tuning vision-languag
 <p align="center"><em>Fine-tuning LLaVA for Comic Panel Prediction</em></p>
 
 <p align="center">
-  <a href="https://github.com/harshvardhan-sekar/comics-cloze"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://github.com/harshvardhan-sekar/beyond-the-frame"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
 </p>
 
 <p align="center">
