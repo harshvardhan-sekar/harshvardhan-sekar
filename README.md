@@ -147,6 +147,58 @@ integrated <strong>Stable Diffusion</strong> for end-to-end panel image synthesi
 
 ---
 
+<h3 align="center">📈 CECL Credit Risk Analytics — LendingClub Portfolio</h3>
+<p align="center"><em>End-to-End CECL Loss Forecasting Platform</em></p>
+
+<p align="center">
+  <a href="https://github.com/harshvardhan-sekar/lendingclub-credit-risk"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+</p>
+
+<p align="center">
+Built a production-grade <strong>CECL-compliant credit risk platform</strong> for a <strong>$11.7B LendingClub portfolio</strong><br/>
+(1.35M loans, 2007–2018) — PD/LGD/EAD modeling, synthetic flow rate engine, macro stress testing,<br/>
+and a <strong>7-page Streamlit dashboard</strong> with interactive ECL forecasting.
+</p>
+
+<table align="center">
+  <tr>
+    <th>Component</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td><strong>PD Scorecard</strong> (Logistic Regression)</td>
+    <td>AUC <strong>0.693</strong>, Gini 38.6%, KS 28.1% — 13 WoE features</td>
+  </tr>
+  <tr>
+    <td><strong>PD Ensemble</strong> (XGBoost)</td>
+    <td>AUC <strong>0.720</strong> — 50 SHAP-selected features</td>
+  </tr>
+  <tr>
+    <td><strong>LGD Model</strong> (Two-stage)</td>
+    <td>MAE <strong>7.6%</strong>, portfolio mean 89.0%</td>
+  </tr>
+  <tr>
+    <td><strong>Pre-FEG ECL</strong> (DCF baseline)</td>
+    <td><strong>$1.18B</strong> — 6.09% ALLL ratio</td>
+  </tr>
+  <tr>
+    <td><strong>Post-FEG ECL</strong> (probability-weighted)</td>
+    <td><strong>$3.49B</strong> — 29.7% ALLL under macro stress</td>
+  </tr>
+  <tr>
+    <td><strong>Population Stability</strong></td>
+    <td>All PSI < 0.04 (GREEN) across test periods</td>
+  </tr>
+</table>
+
+<p align="center">
+🔑 <strong>Key Features:</strong> Dual-mode forecasting (Operational vs CECL), 31.4M-row synthetic monthly panel,<br/>
+8-bucket flow rate engine, 3-scenario macro stress testing (60/25/15% weights),<br/>
+RAG model monitoring dashboard, and Claude-powered portfolio Q&A chatbot.
+</p>
+
+---
+
 <h3 align="center">🏥 Medical Question-Answering RAG Pipeline</h3>
 <p align="center"><em>Retrieval-Augmented Generation for Clinical NLP</em></p>
 
@@ -177,36 +229,6 @@ using hybrid retrieval (BM25 + SBERT) with fine-tuned BioBART/SciFive generators
 <p align="center">
 🔑 <strong>Key Innovation:</strong> Discovered <strong>Q-to-Q retrieval outperforms Q-to-A</strong>;<br/>
 implemented CUI-based splitting across 5,125 diseases to prevent data leakage.
-</p>
-
----
-
-<h3 align="center">📈 Credit Risk Loan Portfolio Analysis (IFRS-9)</h3>
-<p align="center"><em>CECL-Compliant ECL Framework</em></p>
-
-<p align="center">
-Designed IFRS-9 compliant credit risk pipeline for <strong>$195M LendingClub portfolio</strong><br/>
-with PD, LGD, and EAD models; reduced aggregate ECL prediction error to <strong>24.3%</strong>.
-</p>
-
-<table align="center">
-  <tr>
-    <th>Model</th>
-    <th>Performance</th>
-  </tr>
-  <tr>
-    <td><strong>EAD MAE</strong></td>
-    <td>$5,283</td>
-  </tr>
-  <tr>
-    <td><strong>LGD MAE</strong></td>
-    <td>0.064%</td>
-  </tr>
-</table>
-
-<p align="center">
-Built with Random Forest regressors across 30K loans;<br/>
-visualized risk-reporting insights in <strong>Tableau dashboards</strong>.
 </p>
 
 ---
