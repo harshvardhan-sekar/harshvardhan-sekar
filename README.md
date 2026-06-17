@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Harshvardhan Sekar</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&random=false&width=700&lines=%2418B%2B+Portfolio+Experience+at+HSBC;Credit+Risk+Analyst+%7C+Data+Scientist;UIUC+MS+Data+Science+%7C+3.94+GPA;Vision-Language+Models+%7C+RAG+Pipelines;CECL%2FIFRS-9+%7C+Loss+Forecasting" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&random=false&width=700&lines=%2418B%2B+Portfolio+Experience+at+HSBC;Credit+Risk+Analyst+%7C+Data+Scientist;UIUC+MS+Data+Science+%7C+3.96+GPA;Vision-Language+Models+%7C+RAG+Pipelines;CECL%2FIFRS-9+%7C+Loss+Forecasting" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 <p align="center">
 I'm a <strong>Data Scientist</strong> and <strong>Credit Risk Analyst</strong> pursuing my <strong>M.S. in Information Management (Data Science Track)</strong><br/>
-at the <strong>University of Illinois Urbana-Champaign</strong> with a <strong>3.94 GPA</strong>.
+at the <strong>University of Illinois Urbana-Champaign</strong> with a <strong>3.96 GPA</strong>.
 </p>
 
 <p align="center">
@@ -84,7 +84,7 @@ from building CECL/IFRS-9 compliant ECL frameworks to fine-tuning vision-languag
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GPA-3.94%2F4.00-success?style=for-the-badge" alt="GPA"/>
+  <img src="https://img.shields.io/badge/GPA-3.96%2F4.00-success?style=for-the-badge" alt="GPA"/>
 </p>
 
 <p align="center">
@@ -179,11 +179,11 @@ and a <strong>7-page Streamlit dashboard</strong> with interactive ECL forecasti
   </tr>
   <tr>
     <td><strong>Pre-FEG ECL</strong> (DCF baseline)</td>
-    <td><strong>$1.18B</strong> — 6.09% ALLL ratio</td>
+    <td><strong>$2.37B</strong> — 20.18% ALLL ratio</td>
   </tr>
   <tr>
     <td><strong>Post-FEG ECL</strong> (probability-weighted)</td>
-    <td><strong>$3.49B</strong> — 29.7% ALLL under macro stress</td>
+    <td><strong>$3.46B</strong> — 29.5% ALLL under macro stress</td>
   </tr>
   <tr>
     <td><strong>Population Stability</strong></td>
@@ -301,7 +301,7 @@ improved accuracy from 70% to <strong>88%+</strong> using transfer learning (VGG
   <a href="https://cloud.google.com/docs"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/></a>
   <a href="https://learn.microsoft.com/en-us/azure/"><img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/></a>
   <a href="https://docs.snowflake.com/"><img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/></a>
-  <a href="https://docs.databricks.com/"><img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/></a>
+
 </p>
 
 <h4 align="center">HPC Resources</h4>
@@ -349,7 +349,7 @@ improved accuracy from 70% to <strong>88%+</strong> using transfer learning (VGG
   </tr>
   <tr>
     <td align="center"><strong>$18B+</strong><br/>Portfolio Management</td>
-    <td align="center"><strong>3.94</strong><br/>GPA at UIUC</td>
+    <td align="center"><strong>3.96</strong><br/>GPA at UIUC</td>
   </tr>
   <tr>
     <td align="center"><strong>2 Years</strong><br/>HSBC Credit Risk</td>
