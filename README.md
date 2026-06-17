@@ -155,7 +155,7 @@ integrated <strong>Stable Diffusion</strong> for end-to-end panel image synthesi
 </p>
 
 <p align="center">
-Built a production-grade <strong>CECL-compliant credit risk platform</strong> for a <strong>$11.7B LendingClub portfolio</strong><br/>
+Built a production-grade <strong>CECL-compliant credit risk platform</strong> for a <strong>$19.4B LendingClub portfolio</strong><br/>
 (1.35M loans, 2007–2018) — PD/LGD/EAD modeling, synthetic flow rate engine, macro stress testing,<br/>
 and a <strong>7-page Streamlit dashboard</strong> with interactive ECL forecasting.
 </p>
