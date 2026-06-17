@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Harshvardhan Sekar</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&random=false&width=700&lines=%2418B%2B+Portfolio+Experience+at+HSBC;Credit+Risk+Analyst+%7C+Data+Scientist;UIUC+MS+Data+Science+%7C+3.96+GPA;Vision-Language+Models+%7C+RAG+Pipelines;CECL%2FIFRS-9+%7C+Loss+Forecasting" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&random=false&width=700&lines=%2418B%2B+Portfolio+Experience+at+HSBC;Credit+Risk+Analyst+%7C+Data+Scientist;UIUC+MS+Information+Management+%7C+3.96+GPA;Vision-Language+Models+%7C+RAG+Pipelines;CECL%2FIFRS-9+%7C+Loss+Forecasting" alt="Typing SVG" />
 </p>
 
 <p align="center">
